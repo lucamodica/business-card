@@ -14,3 +14,7 @@
   width: 25px;
   height: 25px;
 }
+
+.footer-icon:hover {
+  cursor: pointer;
+}

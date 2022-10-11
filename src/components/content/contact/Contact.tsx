@@ -7,11 +7,18 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export function Contact() {
   return (
     <div className="contact">
-      <button className="btn email-btn">
+      <button
+        onClick={() => window.location.href = 'mailto:lucamodica.business@gmail.com'}
+        className="btn email-btn">
         <FontAwesomeIcon icon={faEnvelope} />
         Email
       </button>
-      <button className="btn linkedin-btn">
+      
+      <button
+        className="btn linkedin-btn"
+        onClick={
+          () => window.location.href = 'https://www.linkedin.com/in/lucamodica/'
+        }>
         <FontAwesomeIcon icon={faLinkedin} />
         LinkedIn
       </button>

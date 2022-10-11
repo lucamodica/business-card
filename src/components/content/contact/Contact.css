@@ -17,6 +17,11 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+.btn:hover {
+  cursor: pointer;
+}
+
 .email-btn {
   border: 1px solid #D1D5DB;
 }
