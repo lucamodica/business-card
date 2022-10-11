@@ -1,0 +1,20 @@
+.about {
+  text-align: left;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #DCDCDC;
+  text-align: justify;
+  margin: 0;
+}

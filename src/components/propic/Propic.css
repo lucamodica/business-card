@@ -1,0 +1,9 @@
+.propic {
+  width: 317px;
+  height: 317px;
+  background-image: url('../../assets/pic.jpg');
+  background-size: 317px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
