@@ -3,3 +3,8 @@
   margin: auto;
   width: fit-content;
 }
+
+.business-card {
+  z-index: 100;
+  position:relative;
+}

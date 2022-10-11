@@ -17,7 +17,7 @@ export function About() {
       <h2 className="about-title">Interests</h2>
       <p className="about-description">
         Addicted by code, amazed by AI and affascinated by data science.
-        Food&beer lover, proud owner of a little doggo and average book
+        Food&beer lover, owner of a doggo and average book
         enjoyer.
       </p>
     </div>
