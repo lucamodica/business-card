@@ -20,12 +20,11 @@ export function Footer() {
           () => window.location.href = 'https://steamcommunity.com/id/TheThinkerBigger/'
         } />
       
-      <FontAwesomeIcon
-        icon={faSquareInstagram}
-        className="footer-icon"
-        onClick={
-          () => window.location.href = 'https://www.instagram.com/_lucamodica_/'
-        } />
+      <a href="https://www.instagram.com/_lucamodica_/">
+        <FontAwesomeIcon
+          icon={faSquareInstagram}
+          className="footer-icon" />
+      </a>
       
       <FontAwesomeIcon
         icon={faSquareGithub}
