@@ -12,7 +12,7 @@ export function Footer() {
           className="footer-icon" />
       </a>
       
-      <a href="https://www.instagram.com/_lucamodica_/">
+      <a href="https://steamcommunity.com/id/TheThinkerBigger/">
         <FontAwesomeIcon
           icon={faSquareSteam}
           className="footer-icon" />
