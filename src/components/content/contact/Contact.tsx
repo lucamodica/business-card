@@ -5,16 +5,21 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export function Contact() {
+  
   return (
     <div className="contact">
-      <button className="btn email-btn">
-        <FontAwesomeIcon icon={faEnvelope} />
-        <a href="mailto:lucamodica.business@gmail.com">
+      <a
+        href="mailto:lucamodica.business@gmail.com"
+        className="btn-link">
+        <button className="btn email-btn">
+          <FontAwesomeIcon icon={faEnvelope} />
           Email
-        </a>
-      </button>
+        </button>
+      </a>
       
-      <a href="https://www.linkedin.com/in/lucamodica/">
+      <a
+        href="https://www.linkedin.com/in/lucamodica/"
+        className="btn-link">
         <button className="btn linkedin-btn">
           <FontAwesomeIcon icon={faLinkedin} />
           LinkedIn

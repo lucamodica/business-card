@@ -11,17 +11,12 @@ import { loadLinksPreset } from 'tsparticles-preset-links';
 export default function App() {
   
   const particlesInit = useCallback(async (engine: Engine) => {
-    console.log(engine);
     
     // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     await loadLinksPreset(engine);
     await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container: Container | undefined) => {
-    console.log(container);
   }, []);
 
   return (
@@ -35,7 +30,6 @@ export default function App() {
       <Particles
         id="tsparticles"
         init={particlesInit}
-        loaded={particlesLoaded}
         className="tsparticles"
         options={{
           preset: 'links'

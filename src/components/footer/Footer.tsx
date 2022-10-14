@@ -6,19 +6,17 @@ import './Footer.css';
 export function Footer() {
   return (
     <footer className="footer">
-      <FontAwesomeIcon
-        icon={faSquareTwitter}
-        className="footer-icon"
-        onClick={
-          () => window.location.href = 'https://twitter.com/ThinkerBigger'
-        } />
+      <a href="https://twitter.com/ThinkerBigger">
+        <FontAwesomeIcon
+          icon={faSquareTwitter}
+          className="footer-icon" />
+      </a>
       
-      <FontAwesomeIcon
-        icon={faSquareSteam}
-        className="footer-icon"
-        onClick={
-          () => window.location.href = 'https://steamcommunity.com/id/TheThinkerBigger/'
-        } />
+      <a href="https://www.instagram.com/_lucamodica_/">
+        <FontAwesomeIcon
+          icon={faSquareSteam}
+          className="footer-icon" />
+      </a>
       
       <a href="https://www.instagram.com/_lucamodica_/">
         <FontAwesomeIcon
@@ -26,12 +24,11 @@ export function Footer() {
           className="footer-icon" />
       </a>
       
-      <FontAwesomeIcon
-        icon={faSquareGithub}
-        className="footer-icon"
-        onClick={
-          () => window.location.href = 'https://github.com/lucamodica'
-        } />
+      <a href="https://github.com/lucamodica">
+        <FontAwesomeIcon
+          icon={faSquareGithub}
+          className="footer-icon" />
+      </a>
     </footer>
   );
 }
