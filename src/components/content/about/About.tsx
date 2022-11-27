@@ -8,7 +8,7 @@ export function About() {
       <h2 className="about-title">About</h2>
       <p className="about-description">
         Hi, I'm Luca! I'm a full-stack developer and aspirant
-        data scientist, almost graduated at University of Turin
+        data scientist, graduated at University of Turin
         in Computer Science. Also thanks to my thesis, I expand
         my topic of interest to social computing and HCI, in
         particular about the gamification of platforms.
